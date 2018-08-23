@@ -3,10 +3,23 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - mini</title>
+    <title>@ViewData["Title"] - Manuela Ibi Nutrição Integrada</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="Nutrição" />
+    <meta name="author" content="Manuela Ibi" />
 
     <environment include="Development">
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,700" rel="stylesheet">
+        <link rel="stylesheet" href="~/css/animate.css">
+        <link rel="stylesheet" href="~/css/icomoon.css">
+        <link rel="stylesheet" href="~/css/bootstrap.css">
+        <link rel="stylesheet" href="~/css/magnific-popup.css">
+        <link rel="stylesheet" href="~/css/flexslider.css">
+        <link rel="stylesheet" href="~/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="~/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="~/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="c~/ss/style.css">
+        <script src="js/modernizr-2.6.2.min.js"></script>
         <link rel="stylesheet" href="~/css/site.css" />
     </environment>
     <environment exclude="Development">
@@ -38,13 +51,13 @@
         </div>
     </nav>
 
-    <partial name="_CookieConsentPartial" />
+    @*<partial name="_CookieConsentPartial" />*@
 
     <div class="container body-content">
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2018 - mini</p>
+            <p>&copy; 2018 - Manuela Ibi Nutrição Integrada</p>
         </footer>
     </div>
 
